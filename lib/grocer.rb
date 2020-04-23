@@ -11,9 +11,11 @@ def find_item_by_name_in_collection(name, collection)
   i = 0 
   while i < collection.length do 
     hash_i = 0
-   if collection[i][hash_i] == name 
-     return collection[i]
-   end 
+    while hash_i < collection[i].length do
+      if collection[i][hash_i] == name 
+        return collection[i]
+      end 
+    end   
   end  
 end
 
