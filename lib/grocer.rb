@@ -29,6 +29,7 @@ def consolidate_cart(cart)
 
 end
 
-def consolidate_cart(cart)
- i = 0 
+def consolidate_cart
+  list = []
+  i = 0 
 end
