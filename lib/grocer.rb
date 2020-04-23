@@ -8,6 +8,7 @@ require "pry"
 #   end 
 # end 
 # end 
+#does not return nil for some reason
 
 def find_item_by_name_in_collection(name, collection)
  i = 0 
