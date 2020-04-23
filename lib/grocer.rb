@@ -1,23 +1,16 @@
 require "pry"
-# def find_item_by_name_in_collection(name, collection)
-# collection.each do |items|
-#   if items[:item] == name
-#     return items
-#   end
-# end 
-# end
+
 
 def find_item_by_name_in_collection(name, collection)
-  i = 0 
-  while i < collection.length do 
-    hash_i = 0
-    while hash_i < collection[i].length do
-      if collection[i][hash_i] == name 
-        return collection[i]
-      end 
-    end   
-  end  
+collection.each do |items|
+  if items[:item] == name
+    return items
+    binding.pry
+  end
+end 
 end
+
+
 
 
 def consolidate_cart(cart)
