@@ -29,7 +29,11 @@ def consolidate_cart(cart)
 
 end
 
-def consolidate_cart
+def consolidate_cart(cart)
   list = []
   i = 0 
+  while i < cart.length do 
+    list << cart[i][:count]
+  end 
+  i += 1
 end
