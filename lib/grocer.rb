@@ -3,6 +3,7 @@ def find_item_by_name_in_collection(name, collection)
   collection.each do |item|
     if name == item
       return item
+      binding.pry
     end 
   end 
 end
