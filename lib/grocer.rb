@@ -9,8 +9,10 @@ require "pry"
 
 def find_item_by_name_in_collection(name, collection)
   index = 0 
-  while i < collection.count
-  
+  while i < collection.length do 
+    # if collection[i] == name 
+    # end 
+  end 
 end
 
 
