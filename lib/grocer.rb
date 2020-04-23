@@ -4,7 +4,8 @@ collection.each do |items|
   
   if collection[items] == name
   binding.pry
-end 
+    end 
+  end 
 end
 
 def consolidate_cart(cart)
