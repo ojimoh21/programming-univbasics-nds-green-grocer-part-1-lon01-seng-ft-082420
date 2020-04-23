@@ -8,12 +8,13 @@ require "pry"
 # end
 
 def find_item_by_name_in_collection(name, collection)
-  index = 0 
+  i = 0 
   while i < collection.length do 
-   if collection[i] == name 
+    hash_i = 0
+   if collection[i][hash_i] == name 
      return collection[i]
    end 
-  end 
+  end  
 end
 
 
