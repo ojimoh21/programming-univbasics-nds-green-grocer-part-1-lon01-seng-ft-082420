@@ -9,6 +9,15 @@ require "pry"
 # end 
 # end 
 
+def find_item_by_name_in_collection(name, collection)
+ collection.each do |items|
+   if items[:item] == name
+     return items
+   end 
+ end 
+end 
+
+
 
 
 
