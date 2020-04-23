@@ -1,7 +1,7 @@
 require "pry"
 def find_item_by_name_in_collection(name, collection)
- collection.each do |name|
-   if name[:item] == name 
+ collection.each do |items|
+   if items[:item] == name 
      return name[:item]
    end 
  end 
