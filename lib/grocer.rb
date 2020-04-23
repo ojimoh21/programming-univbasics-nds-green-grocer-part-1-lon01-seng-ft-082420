@@ -35,5 +35,5 @@ def consolidate_cart(cart)
   while i < cart.length do 
     list << cart[i][:count]
   end 
-  i += 1 
+  i += 1 +
 end
